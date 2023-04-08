@@ -1,16 +1,13 @@
 .sidenav {
   background-color: rgb(69, 154, 235);
-  width: 150px;
+  width: 200px;
 }
-
-.nav-list span {
+.items {
   color: white;
   display: flex;
-  align-items: center;
-  width: 100%;
-font-size: 1vp;
 }
 
-.nav-list i {
-    padding-right: 10px;
+.item-text {
+   margin-top: 3px; 
+   padding-left: 10px;
 }

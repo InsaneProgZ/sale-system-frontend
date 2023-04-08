@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./nav.component.scss']
 })
 export class NavComponent {
-
+  name(test:string) {
+    console.log(test);
+    
+  }
 }
