@@ -1,6 +1,6 @@
 .sidenav {
   background-color: rgb(69, 154, 235);
-  width: 200px;
+  width: 150px;
 }
 
 .items {
@@ -11,4 +11,8 @@
 .item-text {
    margin-top: 3px; 
    padding-left: 10px;
+  }
+
+mat-sidenav-container {
+  height: 100%;
 }
