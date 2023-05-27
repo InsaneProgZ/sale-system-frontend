@@ -1,0 +1,19 @@
+<mat-card>
+    <mat-card-title> New product </mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Name" [(ngModel)]="product.name" name="name">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Buy price" [(ngModel)]="product.buy_price" name="buy_price">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Sell price" [(ngModel)]="product.sell_price" name="sell_price">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Brand" [(ngModel)]="product.brand" name="brand">
+        </mat-form-field>
+    </form>
+</mat-card>
+
+<button (click)="createProduct()">Create Product</button>
