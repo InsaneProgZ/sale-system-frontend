@@ -1,6 +1,33 @@
-form {
-    display: flex;
-    flex-direction: column;
-    border: solid red;
-    ;
+.create-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-card {
+  width: 50%;
+  margin-left: 25%;
+  box-shadow: none;
+}
+
+.create-product {
+  margin: 20px;
+  margin-left: 25%;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+
+.create-product:hover{
+  background-color: rgb(116, 116, 116);
+}
+
+.inputs {
+  border-radius: 10px;
+  border: 2px black solid;
+  height: fit-content;
+ 
+}
+
+.mat-mdc-form-field-subscript-wrapper {
+  height: 1110px;
 }
