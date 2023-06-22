@@ -20,6 +20,10 @@ export class ProductCreateComponent {
   }
 
   createProduct(): void {
+    console.log(this.product)
+    this.product.buy_price = Number(this.product.buy_price)
+    this.product.sell_price = Number(this.product.sell_price)
+    console.log(typeof this.product.buy_price)
     this.productService.createProduct(this.product).subscribe(() => {
       this.productService.showCreateProductMessage("Product created with success!")
       this.router.navigate(['/products'])

@@ -27,4 +27,8 @@ export class ProductService {
     console.log('TEST client http')
     return this.httpClient.post<Product>(this.baseUrl, product)
   }
+
+  searchAllProducts(): Observable<Product[]> {
+    return this.httpClient.get<Product[]>(this.baseUrl)
+  }
 }
